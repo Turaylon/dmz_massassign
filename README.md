@@ -11,7 +11,7 @@ Example:
  ```
  class User extends DataMapper{
       //Field that can be filled
-      public $guarded = ['name','email'];
+      public $fillable = ['name','email'];
       //Field that are not writable
       public $guarded = ['id','group'];
   }
